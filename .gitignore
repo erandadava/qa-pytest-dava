@@ -4,7 +4,7 @@ __pycache__/
 *$py.class
 *.so
 .Python
-
+*.pyc
 # Virtual Environment
 venv/
 env/
@@ -35,8 +35,8 @@ playwright-report/
 screenshots/
 videos/
 traces/
+.playwright/
+
 
 # Logs
 *.logvenv/
-.pytest_cache/
-__pycache__/
