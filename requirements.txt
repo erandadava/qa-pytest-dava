@@ -1,0 +1,11 @@
+1. Menu Automation
+Create pytest-based automated tests to verify:
+
+All menu items are visible
+Clicking each menu navigates to the correct page or section
+
+2. Asset Automation
+Create pytest-based automated checks to verify:
+
+Images are loaded correctly (no broken images)
+Main CSS and JavaScript assets are loaded without errors

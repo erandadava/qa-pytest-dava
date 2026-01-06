@@ -1,0 +1,20 @@
+Answering of this question: https://github.com/BLT-blueskytech/QA-Test-Bluesky?tab=readme-ov-file#questions-answer-briefly
+
+Why did you choose these test cases to automate?
+- For Menu Automation i test all the navbar using page.locator # or id because its the most critical elements in the html
+that differentiate each nav button
+
+- For Asset Automation::broken_image my test case is searching the img who has naturalwidth > 0. naturalwidth is a html dom property that can tell if image 
+loaded correctly or not
+- For Asset Automation::css or js loaded, i check when js or css content is not returning 400, if its returning 400 then it means the js or css is
+not loaded correctly
+
+What did you choose not to automate, and why?
+
+How would you maintain or scale these tests as the website grows?
+: Maybe i would do Page object models for redundant command like
+```
+    page.goto("https://blsky.tech/", timeout=60000)
+    page.wait_for_selector("img", timeout=10000)
+```
+or Add another helper so in test files i would just focus on assertion and acceptance criteria inside the file test
