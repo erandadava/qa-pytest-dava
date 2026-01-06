@@ -10,7 +10,8 @@
 pytest
 
 # Run specific test
-pytest tests/test_asset_automation.py -v
+example:
+pytest ./tests/test_asset_automation.py --browser chromium
 ```
 
 ## Test Cases Google Sheets for this automation:
