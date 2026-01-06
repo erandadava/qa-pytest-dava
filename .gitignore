@@ -37,4 +37,6 @@ videos/
 traces/
 
 # Logs
-*.log
+*.logvenv/
+.pytest_cache/
+__pycache__/
